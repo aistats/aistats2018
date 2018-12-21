@@ -1,8 +1,8 @@
-# aistats.github.io
+# AISTATS 2018
 
-The AISTATS current webpage.
+The AISTATS 2018 webpage.
 
-This repository contains the current AISTATS conference page. Once the year has past it can be archived to aistats20XX and modified to form the next year's page.
+This repository contains the archive of the AISTATS 2018 conference page. Once each year has past it can be archived to aistats20XX and modified to form the next year's page.
 
 
 
@@ -31,8 +31,7 @@ git push --mirror https://github.com/aistats/aistatsXXXX.git
 
 7. Check that the archived page appears online at http://aistats.org/aistatsXXXX/
 
-8. Update the original main repository at [https://github.com/aistats/aistats.github.io](https://github.com/aistats/aistats.github.io) for the current conference.
-This will be used to host the current AISTATS.
+8. Update the original main repository at [https://github.com/aistats/aistats.github.io](https://github.com/aistats/aistats.github.io) for the current conference. This page will be used to host the current AISTATS.
 
 9. Add the team `aistatsXXXX` to the admin rights for the repo `aistatsXXXX`
 
@@ -53,10 +52,9 @@ repository uses master branch, not gh-pages.
   entry of ``_config.yml`` from ``baseurl: ""`` to ``baseurl: "/aistats20xx"``
 so that internal links in the web site are generated correctly.  
 
-* ``baseurl:
-""`` is used only in the current AISTATS site because its files are at the root
+* ``baseurl: ""`` is used only in the current AISTATS site because its files are at the root
 of aistats.github.io.
 
-* Repository set up by Neil Lawrence and conversion of the old javascript pages by Wittawat. Pages then arcived for the 2016 and 2017 editions of the conference. 
+* Repository set up by Neil Lawrence and conversion of the old javascript pages by Wittawat. Pages then archived for the 2016 and 2017 editions of the conference. 
 
 

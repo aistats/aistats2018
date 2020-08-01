@@ -9,9 +9,16 @@ baseurl: "/aistats2018" # the subpath of your site, e.g. /blog/
 #twitter_username: aistat
 github_username:  aistats
 
-github:
+author:
+  name: AISTATS
+comments: false
+plugins:
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+
+ghub:
   edit: true
-  repository: aistats2018.github.io
+  repository: aistats2018
 TZ: UTC
 
 # Build settings
@@ -20,20 +27,13 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-# Handling Reading
-#safe:         false
-#include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 image:
   file: pvw.i7.png
   width: 400
 
 banner:
-  image: banner.png
+  image: resort.png
 
 credit_card_image: credit.png
 

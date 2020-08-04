@@ -13,8 +13,11 @@ author:
   name: AISTATS
 comments: false
 plugins:
+- jekyll-feed
+- jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
+style: aistats
 
 ghub:
   edit: true
@@ -27,29 +30,24 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-
-image:
-  file: pvw.i7.png
-  width: 400
-
-banner:
-  image: resort.png
+banner: resort.png
 
 credit_card_image: credit.png
 
 conference:
-  draft: true # set to True if the programme is draft only.
-  logo: logo.jpg
+  draft: false # set to True if the programme is draft only.
+  image: pvw.i7.png
   hide_tentative: true
   proceedings:
-    url: 
-    show: false
+    url: http://proceedings.mlr.press/v84/
+    show: true
   room: Room
   venue: Hotel H10 Rubicon Palace
   venue_url: https://www.h10hotels.com/en/lanzarote-hotels/h10-rubicon-palace
   location: Playa Blanca, Lanzarote, Canary Islands
   full_name: Artificial Intelligence and Statistics
-  name: AISTATS
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
   year: 2018
   instance: 21st
   styling: International Conference on

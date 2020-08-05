@@ -41,7 +41,7 @@ conference:
   proceedings:
     url: http://proceedings.mlr.press/v84/
     show: true
-  room: Room
+  room: 
   venue: Hotel H10 Rubicon Palace
   venue_url: https://www.h10hotels.com/en/lanzarote-hotels/h10-rubicon-palace
   location: Playa Blanca, Lanzarote, Canary Islands

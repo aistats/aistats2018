@@ -1,17 +1,8 @@
 ---
-layout: default
+layout: committee
 title: Organizers
 weight: 4
 ---
-
-<h1>{{ site.conference.name }} {{ site.conference.year }} Organizing Committee</h1>
-
-{% if site.conference.chairs %}
-{% for chair in site.conference.chairs %}
-{% include listchairs.html %}
-{% endfor %}
-{% endif %}
-
 <h3>Area Chairs</h3>
 <p>
   <div>
@@ -76,4 +67,4 @@ weight: 4
   </ul>
   </div>
 </p>
-General inquiries should be sent to {{ site.email }}.
+General inquiries should be sent to {{ site.author.email }}.

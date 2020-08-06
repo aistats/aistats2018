@@ -8,7 +8,7 @@ navigation_weight: 5
 
 <h1>{{ site.conference.name }} {{ site.conference.year }}</h1>
 
-<table border="0" cellpadding="2" cellspacing="0" width="90%">
+<table border="0" cellpadding="2" cellspacing="0">
   {% for deadline in site.conference.deadlines %}
   {% include listdeadline.html %}
   {% endfor %}
